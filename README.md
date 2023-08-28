@@ -40,7 +40,7 @@ Next, we list some of the requirements that we developed in the API:
 
 <a name="item3"></a>
 ### E-R-D
-![D-E-R  Sales_Management]()
+![D-E-R  Sales_Management](file:///C:/Users/Nathalia/Desktop/Diagrama%20sin%20t%C3%ADtulo.drawio.pdf)
 
 <a name="item4"></a>
 ### Tools
