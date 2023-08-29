@@ -23,7 +23,7 @@ Next, we will describe each entity and its corresponding class in the "entities"
 4.	**Product:** This entity represents the items available for sale. It has attributes such as name, brand, price and available quantity. Its representative class is  **Product**, which will have a _*@OneToMany*_ relationship with the _*Sale_Detail*_ class.
 
 The project is developed using a layered architecture:
-1. **Entities:** We host the classes representing the entities in the database: _*Customer*_, _*Sale*_, Sale_Detail, and _*Product*_.
+1. **Entities:** We host the classes representing the entities in the database: _*Customer*_, _*Sale*_, _*Sale_Detail*_, and _*Product*_.
 2. **Repositories:** We store interfaces that extend _JpaRepository_ for each class in _*entities*_, which provide predefined methods for performing database operations such as saving, retrieving, and deleting records.
 3. **Services:** In this layer, through classes and interfaces, services are implemented for each entity. These services contain the "business logic," which is responsible for managing the interaction between the classes in the _controllers_ y _repositories_ layers.
 4. **Controllers:** From this layer, we store the various "controller" classes using Spring MVC annotations. These classes handle the _*HTTP*_ requests.
